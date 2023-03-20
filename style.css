@@ -12,9 +12,15 @@ html {
   padding: 0;
 }
 
+body {
+  padding-bottom: 15px;
+}
+
 .PageWrapper {
-  margin: 0 auto;
+  margin: 50px;
   max-width: auto;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .header {
@@ -49,8 +55,17 @@ a:active {
 }
 
 .GameTitle {
-  color: #3f8ce2;
+  color: #3f48d0;
   font-family: "Coiny", cursive;
+  line-height: 1.25;
+  margin-top: 10px;
+}
+
+h1,
+h2,
+h3 {
+  padding: 0;
+  margin: 0;
 }
 
 h2 {
@@ -105,6 +120,20 @@ h3 {
   width: 100%;
 }
 
+.StarAlliesBanner {
+  align-content: flex-end;
+  background-image: url("Chasing_Our_Dreams.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  opacity: 0.7;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
 .MeetKirby,
 .FeaturedGames {
   margin-left: 250px;
@@ -144,4 +173,10 @@ h3 {
 
 .HomePageImage {
   height: 300px;
+}
+
+.GamePageBody {
+  color: #291278;
+  font-size: 18px;
+  font-weight: 600;
 }
