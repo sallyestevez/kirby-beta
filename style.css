@@ -136,13 +136,14 @@ h3 {
 
 .MeetKirby,
 .FeaturedGames {
-  margin-left: 250px;
-  margin-right: 250px;
+  margin-left: 150px;
+  margin-right: 150px;
   padding: 20px;
   text-align: center;
 }
 
-.HomeContent {
+.HomeContent,
+.GamePageBodyContent {
   display: flex;
   font-weight: bold;
   justify-content: space-around;
@@ -150,7 +151,10 @@ h3 {
 }
 
 .HomeImage,
-.HomeText {
+.HomeText,
+.GamePageBodyText,
+.GamePageBodyImage {
+  margin: auto;
   padding-left: 50px;
   padding-right: 50px;
   width: 50%;
@@ -171,7 +175,8 @@ h3 {
   width: 150px;
 }
 
-.HomePageImage {
+.HomePageImage,
+.GamePageIntroImage {
   height: 300px;
 }
 
@@ -179,4 +184,30 @@ h3 {
   color: #291278;
   font-size: 18px;
   font-weight: 600;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 25px;
+}
+
+.GameText {
+  padding-bottom: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.GamePageImage {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.CharacterSection {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 25px;
+  text-align: center;
+}
+
+.CharacterImage {
+  height: 300px;
 }
