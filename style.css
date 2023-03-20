@@ -1,0 +1,147 @@
+@import url("https://fonts.googleapis.com/css2?family=Carme&family=Coiny&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  background-color: #ee84b4;
+  font-family: "Carme", sans-serif;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.PageWrapper {
+  margin: 0 auto;
+  max-width: auto;
+}
+
+.header {
+  background-color: #3f8ce2;
+  display: flex;
+  font-family: "Coiny", cursive;
+  font-size: 16px;
+  justify-content: space-around;
+}
+
+a,
+a:visited,
+a:active {
+  color: #291278;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.header a {
+  color: #291278;
+  float: left;
+  text-decoration: none;
+}
+
+.header a:hover {
+  color: #3f48d0;
+}
+
+.homepageTitle {
+  color: white;
+  font-family: "Coiny", cursive;
+}
+
+.GameTitle {
+  color: #3f8ce2;
+  font-family: "Coiny", cursive;
+}
+
+h2 {
+  color: #3f48d0;
+  font-family: "Coiny", cursive;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  color: #d43d5e;
+  font-family: "Coiny", cursive;
+  font-size: 28px;
+}
+
+.HomeText p {
+  color: #291278;
+  font-size: 22px;
+}
+
+.banner {
+  align-content: flex-end;
+  background-image: url("Friends'_Getaway.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  opacity: 0.7;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.RobobotBanner {
+  align-content: flex-end;
+  background-image: url("Robobot_Memories.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  opacity: 0.7;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.MeetKirby,
+.FeaturedGames {
+  margin-left: 250px;
+  margin-right: 250px;
+  padding: 20px;
+  text-align: center;
+}
+
+.HomeContent {
+  display: flex;
+  font-weight: bold;
+  justify-content: space-around;
+  padding-bottom: 20px;
+}
+
+.HomeImage,
+.HomeText {
+  padding-left: 50px;
+  padding-right: 50px;
+  width: 50%;
+}
+
+.LearnMore {
+  background-color: #fee35b;
+  border-color: #fee35b;
+  border-radius: 5px;
+  color: #3f48d0;
+  font-family: "Coiny", cursive;
+  font-size: 18px;
+  height: 45px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 5px;
+  padding-right: 5px;
+  width: 150px;
+}
+
+.HomePageImage {
+  height: 300px;
+}
