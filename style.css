@@ -8,20 +8,28 @@ html {
   background-color: #ee84b4;
   font-family: "Carme", sans-serif;
   height: 100%;
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 0px;
 }
 
 body {
   padding-bottom: 15px;
 }
 
-.PageWrapper {
+/* .PageWrapper {
   margin: 50px;
   max-width: auto;
   padding-left: 150px;
   padding-right: 150px;
-}
+} */
+
+/* .mainGridContainer {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 2vmin;
+  padding: 0px 10vmin 0px 10vmin;
+} */
 
 .header {
   background-color: #3f8ce2;
@@ -92,6 +100,16 @@ h3 {
   font-size: 22px;
 }
 
+/* .item-8x {
+  grid-column-end: span 8;
+}
+
+.item-4x {
+  grid-column-end: span 4;
+} */
+.top {
+  padding-bottom: 25px;
+}
 .banner {
   align-content: flex-end;
   background-image: url("images/Friends'_Getaway.png");
@@ -134,15 +152,15 @@ h3 {
   width: 100%;
 }
 
-.MeetKirby,
+/* .MeetKirby,
 .FeaturedGames {
   margin-left: 150px;
   margin-right: 150px;
   padding: 20px;
   text-align: center;
-}
+} */
 
-.HomeContent,
+/* .HomeContent,
 .GamePageBodyContent {
   display: flex;
   font-weight: bold;
@@ -158,7 +176,7 @@ h3 {
   padding-left: 50px;
   padding-right: 50px;
   width: 50%;
-}
+} */
 
 .LearnMore {
   background-color: #fee35b;
@@ -175,7 +193,7 @@ h3 {
   width: 150px;
 }
 
-.HomePageImage,
+/* .HomePageImage,
 .GamePageIntroImage {
   height: 300px;
 }
@@ -187,52 +205,133 @@ h3 {
   padding-left: 50px;
   padding-right: 50px;
   padding-top: 25px;
-}
+} */
 
-.GameText {
+/* .GameText {
   padding-bottom: 20px;
   padding-left: 50px;
   padding-right: 50px;
 }
 
 .GamePageImage {
-  display: block;
+  display: flex;
   margin-left: auto;
   margin-right: auto;
-}
+} */
 
-.CharacterSection {
+/* .CharacterSection {
   display: flex;
   justify-content: space-around;
   padding-top: 25px;
   text-align: center;
-}
+} */
 
-.CharacterImage {
+/* .CharacterImage {
   height: 300px;
 }
 
 #KirbyImage {
   margin-bottom: 25px;
+} */
+
+/* .KirbyPageImageLarge,
+.KirbyPageImageMedium,
+.KirbyPageImageSmall {
+  display: block;
+  justify-content: center;
 }
 
 .KirbyPageImageLarge {
-  display: block;
-  height: 500px;
+  display: flex;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 750px;
+}
+
+.KirbyPageImageMedium {
+  display: flex;
+  height: 250px;
   margin-left: auto;
   margin-right: auto;
 }
 
 .KirbyPageImageSmall {
-  display: block;
+  display: flex;
   height: 150px;
   margin-left: auto;
   margin-right: auto;
+} */
+
+.mainGridContainer {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+  grid-column-gap: 2vmin;
+  grid-row-gap: 2vmin;
+  padding: 0px 10vmin 0px 10vmin;
 }
 
-.KirbyPageImageMedium {
-  display: block;
-  height: 250px;
-  margin-left: auto;
-  margin-right: auto;
+.subGridContainer {
+  padding-bottom: 25px;
+}
+
+.wideImage {
+  width: 50%;
+}
+
+.sectionHeadline {
+  color: #3f48d0;
+  font-family: "Coiny", cursive;
+  font-size: 8vmin;
+  text-align: center;
+}
+
+.sectionSubheader {
+  color: #d43d5e;
+  font-family: "Coiny", cursive;
+  font-size: 6vmin;
+  text-align: center;
+}
+
+p {
+  line-height: 2em;
+}
+
+.verticalCenter {
+  display: flex;
+  align-items: center;
+}
+
+.item-2x {
+  grid-column-end: span 2;
+}
+
+.item-2x2 {
+  grid-column-end: span 2;
+  grid-row-end: span 2;
+}
+
+.item-8x {
+  font-weight: bold;
+  grid-column-end: span 8;
+}
+
+.item-4x {
+  font-weight: bold;
+  grid-column-end: span 4;
+  padding-bottom: 25px;
+  text-align: center;
+}
+
+@media screen and (max-width: 600px) {
+  .mainGridContainer {
+    grid-template-columns: 1fr;
+  }
+
+  .item-2x,
+  .item-2x2,
+  .item-8x,
+  .item-4x {
+    grid-column-end: span 1;
+  }
 }
