@@ -94,7 +94,7 @@ h3 {
 
 .banner {
   align-content: flex-end;
-  background-image: url("Friends'_Getaway.png");
+  background-image: url("images/Friends'_Getaway.png");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -108,7 +108,7 @@ h3 {
 
 .RobobotBanner {
   align-content: flex-end;
-  background-image: url("Robobot_Memories.png");
+  background-image: url("images/Robobot_Memories.png");
   background-position: center;
   background-size: cover;
   display: flex;
@@ -122,7 +122,7 @@ h3 {
 
 .StarAlliesBanner {
   align-content: flex-end;
-  background-image: url("Chasing_Our_Dreams.png");
+  background-image: url("images/Chasing_Our_Dreams.png");
   background-position: center;
   background-size: cover;
   display: flex;
