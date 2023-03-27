@@ -16,23 +16,8 @@ body {
   padding-bottom: 15px;
 }
 
-/* .PageWrapper {
-  margin: 50px;
-  max-width: auto;
-  padding-left: 150px;
-  padding-right: 150px;
-} */
-
-/* .mainGridContainer {
-  display: grid;
-  grid-template-columns: repeat(8, 1fr);
-  grid-column-gap: 2vmin;
-  grid-row-gap: 2vmin;
-  padding: 0px 10vmin 0px 10vmin;
-} */
-
 .header {
-  background-color: #3f8ce2;
+  /* background-color: #3f8ce2; */
   display: flex;
   font-family: "Coiny", cursive;
   font-size: 16px;
@@ -100,16 +85,6 @@ h3 {
   font-size: 22px;
 }
 
-/* .item-8x {
-  grid-column-end: span 8;
-}
-
-.item-4x {
-  grid-column-end: span 4;
-} */
-.top {
-  padding-bottom: 25px;
-}
 .banner {
   align-content: flex-end;
   background-image: url("images/Friends'_Getaway.png");
@@ -152,32 +127,6 @@ h3 {
   width: 100%;
 }
 
-/* .MeetKirby,
-.FeaturedGames {
-  margin-left: 150px;
-  margin-right: 150px;
-  padding: 20px;
-  text-align: center;
-} */
-
-/* .HomeContent,
-.GamePageBodyContent {
-  display: flex;
-  font-weight: bold;
-  justify-content: space-around;
-  padding-bottom: 20px;
-}
-
-.HomeImage,
-.HomeText,
-.GamePageBodyText,
-.GamePageBodyImage {
-  margin: auto;
-  padding-left: 50px;
-  padding-right: 50px;
-  width: 50%;
-} */
-
 .LearnMore {
   background-color: #fee35b;
   border-color: #fee35b;
@@ -193,10 +142,7 @@ h3 {
   width: 150px;
 }
 
-/* .HomePageImage,
-.GamePageIntroImage {
-  height: 300px;
-}
+/*
 
 .GamePageBody {
   color: #291278;
@@ -239,29 +185,28 @@ h3 {
 .KirbyPageImageSmall {
   display: block;
   justify-content: center;
-}
+} */
 
 .KirbyPageImageLarge {
   display: flex;
-  height: 550px;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
-  max-height: 750px;
 }
 
 .KirbyPageImageMedium {
   display: flex;
-  height: 250px;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
 
 .KirbyPageImageSmall {
   display: flex;
-  height: 150px;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
-} */
+}
 
 .mainGridContainer {
   display: grid;
@@ -277,20 +222,35 @@ h3 {
 
 .wideImage {
   width: 50%;
+  max-width: auto;
 }
 
-.sectionHeadline {
+.homeHeadline {
   color: #3f48d0;
   font-family: "Coiny", cursive;
   font-size: 8vmin;
   text-align: center;
 }
 
-.sectionSubheader {
+.homeSubheader {
   color: #d43d5e;
   font-family: "Coiny", cursive;
   font-size: 6vmin;
   text-align: center;
+}
+
+.sectionHeadline {
+  color: #3f48d0;
+  font-family: "Coiny", cursive;
+  font-size: 8vmin;
+  padding-top: 25px;
+}
+
+.sectionSubheader {
+  color: #3f48d0;
+  font-family: "Coiny", cursive;
+  font-size: 6vmin;
+  padding-top: 15px;
 }
 
 p {
@@ -301,6 +261,18 @@ p {
   display: flex;
   align-items: center;
 }
+
+.KirbyPageBodyText p {
+  color: #291278;
+  font-size: 22px;
+  text-align: left;
+}
+
+/* .KirbyPageImage img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+} */
 
 .item-2x {
   grid-column-end: span 2;
@@ -333,5 +305,17 @@ p {
   .item-8x,
   .item-4x {
     grid-column-end: span 1;
+  }
+
+  .item-4x {
+    padding-bottom: 0px;
+    text-align: center;
+  }
+
+  .KirbyPageImageLarge {
+    display: flex;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
