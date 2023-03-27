@@ -269,11 +269,9 @@ p {
   text-align: left;
 }
 
-/* .KirbyPageImage img {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-} */
+.CharacterPageImage {
+  max-height: 300px;
+}
 
 .item-2x {
   grid-column-end: span 2;
