@@ -142,51 +142,6 @@ h3 {
   width: 150px;
 }
 
-/*
-
-.GamePageBody {
-  color: #291278;
-  font-size: 18px;
-  font-weight: 600;
-  padding-left: 50px;
-  padding-right: 50px;
-  padding-top: 25px;
-} */
-
-/* .GameText {
-  padding-bottom: 20px;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.GamePageImage {
-  display: flex;
-  margin-left: auto;
-  margin-right: auto;
-} */
-
-/* .CharacterSection {
-  display: flex;
-  justify-content: space-around;
-  padding-top: 25px;
-  text-align: center;
-} */
-
-/* .CharacterImage {
-  height: 300px;
-}
-
-#KirbyImage {
-  margin-bottom: 25px;
-} */
-
-/* .KirbyPageImageLarge,
-.KirbyPageImageMedium,
-.KirbyPageImageSmall {
-  display: block;
-  justify-content: center;
-} */
-
 .KirbyPageImageLarge {
   display: flex;
   width: 50%;
@@ -263,7 +218,8 @@ p {
   align-items: center;
 }
 
-.KirbyPageBodyText p {
+.KirbyPageBodyText p,
+.CharacterPageBodyText p {
   color: #291278;
   font-size: 22px;
   text-align: left;
