@@ -219,7 +219,8 @@ p {
 }
 
 .KirbyPageBodyText p,
-.CharacterPageBodyText p {
+.CharacterPageBodyText p,
+.GamePageBodyText p {
   color: #291278;
   font-size: 22px;
   text-align: left;
